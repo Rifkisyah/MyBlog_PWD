@@ -7,7 +7,7 @@
         $password = $_POST['password'];
 
         if($auth->login($email, $password)){
-            header("location: dashboard.php");
+            header("location: pages/dashboard-main.php");
         } else {
             echo "<script>alert('Login Gagal!');</script>";
             header("location: login.php");

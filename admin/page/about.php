@@ -1,0 +1,2 @@
+<h2 class="mt-4 mb-4"><i class="news"></i> About</h2>
+
